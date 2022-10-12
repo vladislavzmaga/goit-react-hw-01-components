@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
-import { Wrapper } from './user.styled';
-import { InfoBox } from './user.styled';
-import { UserImg } from './user.styled';
-import { UserName } from './user.styled';
-import { UserTag } from './user.styled';
-import { UserLocation } from './user.styled';
-import { UserList } from './user.styled';
-import { UserItem } from './user.styled';
-import { ItemInfo } from './user.styled';
+import {
+  Wrapper,
+  InfoBox,
+  UserImg,
+  UserName,
+  UserTag,
+  UserLocation,
+  UserList,
+  UserItem,
+  ItemInfo,
+} from './user.styled';
 export const Profile = ({ profile }) => {
   const { username, tag, location, stats, avatar } = profile;
   return (

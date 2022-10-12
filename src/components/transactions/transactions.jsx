@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types';
-import { TransactionTable } from './transactions.styled';
-import { TableHead } from './transactions.styled';
-import { TableHeaders } from './transactions.styled';
-import { TableValue } from './transactions.styled';
+import {
+  TransactionTable,
+  TableHead,
+  TableHeaders,
+  TableValue,
+} from './transactions.styled';
 export const Transactions = ({ transactions }) => {
   return (
     <TransactionTable>

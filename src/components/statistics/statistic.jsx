@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
-import { StatisticSection } from './statistics.styled';
-import { StatisticTitle } from './statistics.styled';
-import { StatisticList } from './statistics.styled';
-import { StatisticItem } from './statistics.styled';
-import { StatisticSpan } from './statistics.styled';
+import {
+  StatisticSection,
+  StatisticTitle,
+  StatisticList,
+  StatisticItem,
+  StatisticSpan,
+} from './statistics.styled';
 export const Statistic = ({ statistic, title }) => {
   return (
     <StatisticSection>
